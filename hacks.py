@@ -15,5 +15,11 @@ elif d == 0:
  r = (-b)/(2*a)
  print("The roots are real and equal")
  print("The roots are : {}, {}".format(r,r))
+else:
+ d = ((4*a*c)-(b**2))**0.5
+ r = (-b)/(2*a)
+ i = (d)/(2*a)
+ print("Imaginary roots")
+ print("The roots are : {}+{}i, {}-{}i".format(r,i,r,i))
 
 
