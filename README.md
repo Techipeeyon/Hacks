@@ -9,3 +9,12 @@
 
 ---
 
+## Nature of Roots
+<p>The discriminant determines the nature of the roots of a quadratic equation. The word 'nature' refers to the types of numbers the roots can be — namely real, rational, irrational or imaginary.</p>
+<!-- UL -->
+if D>0
+<!-- GitHub Markdown -->
+
+<!-- Code Blocks -->
+
+
