@@ -1,3 +1,4 @@
+print("Hi pranavan from Alfred20")
 a = int(input("Enter a : "))
 b = int(input("Enter b : "))
 c = int(input("Enter c : "))
