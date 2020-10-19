@@ -12,8 +12,8 @@
 ## Nature of Roots
 <p>The discriminant determines the nature of the roots of a quadratic equation. The word 'nature' refers to the types of numbers the roots can be — namely real, rational, irrational or imaginary.</p>
 
-<!-- UL -->
-* if D>0: "the roots are real and distinct."
+
+##  if D>0: "the roots are real and distinct."
 
 <!-- GitHub Markdown -->
 
@@ -26,7 +26,10 @@ if d > 0:
  print("The roots are real and distinct")
  print("The roots are : {}, {}".format(r1,r2))
 ```
-* if D=0: "the roots are real and equal."
+<!-- Images -->
+
+![Distinct Roots Graph](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/mahima-quadratic-equations-v2-03-1595909613.png)
+## if D=0: "the roots are real and equal."
 <!--- Code Blocks -->
 ```python
 elif d == 0:
@@ -34,7 +37,9 @@ elif d == 0:
  print("The roots are real and equal")
  print("The roots are : {}, {}".format(r,r))
 ```
-* if D<0: "the roots are imaginary."
+![real and equal Roots Graph](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/mahima-quadratic-equations-v2-06-1595909654.png)
+
+## if D<0: "the roots are imaginary."
 <!-- Code Blocks -->
 ```python
 else:
@@ -44,6 +49,8 @@ else:
  print("Imaginary roots")
  print("The roots are : {}+{}i, {}-{}i".format(r,i,r,i))
 ```
+![Imaginary Roots Graph](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/mahima-quadratic-equations-v2-07-1595909690.png)
+
 
    
 
