@@ -34,7 +34,7 @@ if d > 0:
 
 ---
 ## if D=0: "the roots are real and equal."
----
+
 <!--- Code Blocks -->
 ```python
 elif d == 0:
@@ -46,7 +46,7 @@ elif d == 0:
 ---
 
 ## if D<0: "the roots are imaginary."
----
+
 <!-- Code Blocks -->
 ```python
 else:
