@@ -14,14 +14,37 @@
 
 <!-- UL -->
 * if D>0: "the roots are real and distinct."
-* if D=0: "the roots are real and equal."
-* if D<0: "the are imaginary."
 
 <!-- GitHub Markdown -->
 
 <!-- Code Blocks -->
+``` python  
+if d > 0:
+ d**=0.5
+ r1 = (-b+d)/(2*a)
+ r2 = (-b-d)/(2*a)
+ print("The roots are real and distinct")
+ print("The roots are : {}, {}".format(r1,r2))
+```
+* if D=0: "the roots are real and equal."
+<!--- Code Blocks -->
+```python
+elif d == 0:
+ r = (-b)/(2*a)
+ print("The roots are real and equal")
+ print("The roots are : {}, {}".format(r,r))
+```
+* if D<0: "the roots are imaginary."
+<!-- Code Blocks -->
+```python
+else:
+ d = ((4*a*c)-(b**2))**0.5
+ r = (-b)/(2*a)
+ i = (d)/(2*a)
+ print("Imaginary roots")
+ print("The roots are : {}+{}i, {}-{}i".format(r,i,r,i))
+```
 
-### Sample Input:
    
 
 
