@@ -26,7 +26,7 @@ if d > 0:
  r1 = (-b+d)/(2*a)
  r2 = (-b-d)/(2*a)
  print("The roots are real and distinct")
- print("The roots are : {}, {}".format(r1,r2))
+ print("The roots are :",r1,r2)
 ```
 <!-- Images -->
 
